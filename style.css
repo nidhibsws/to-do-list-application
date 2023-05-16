@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #5c4f5e;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border:  1px solid #244367;
+    text-decoration: double;
+    
+    text-shadow: #c2c200;
+    color: #585251;
+  }
+
+  h2{
+
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+       color:rgba(174, 143, 143, 0.71);
+  margin-top: 2%;
+      margin-bottom: 10px;
+  }
+
+  .image-container {
+    
+    margin-top: 1px;
+  }
+  
+  .image-container img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #988484;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c8bab9;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  li.completed {
+    background-color: #d1ffd6;
+    color: #26a69a;
+    text-decoration: line-through;
+  }
+  
+  li.in-progress {
+    background-color: #f3ffcd;
+    color: #c2c200;
+  }
+  
+  li.not-started {
+    background-color: #ffe4c4;
+    color: #baa9a8;
+  }
+  
+  li button {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    color: #000000;
+  }
+  
+  .color-chooser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .color-chooser label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .color-chooser input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+
+  .tastlist {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(19, 18, 18, 0.71);
+      
+  }
