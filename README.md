@@ -1,6 +1,6 @@
 # to-do-list
 
-a web application that allows users to create and manage a list of tasks. The main features of the project include the ability to add tasks, mark them as completed, and delete tasks. The project provides a user-friendly interface where users can easily interact with the TODO list.
+A web application that allows users to create and manage a list of tasks. The main features of the project include the ability to add tasks, mark them as completed, and delete tasks. The project provides a user-friendly interface where users can easily interact with the TODO list.
 
 Users can enter new tasks in the input field and click the "Add" button to add them to the TODO list. The JavaScript code captures the task input, creates a task object, and adds it to an array that holds all the tasks. The displayTasks() function is responsible for updating the list of tasks on the web page based on the current state of the tasks array.
 
